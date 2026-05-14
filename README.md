@@ -1,13 +1,13 @@
 # Task Management API (Laravel)
 
 ## Overview
-This is a RESTful Task Management API built using Larave.
-It allows performing CRUD operations on tasks and returns data in JSON format.
+This is a RESTful Task Management API built using Larave and MySQL.
+The API allows users to perform CRUD operations on tasks and returns data in JSON format.
 ## Features
 - Authentication using Laravel Sanctum
 - Create tasks
-- get all tasks
-- Get single task
+- Retrieve all tasks
+- Retrieve a single task
 - update tasks
 - Delete tasks
 - Search tasks by title or description
@@ -15,6 +15,7 @@ It allows performing CRUD operations on tasks and returns data in JSON format.
 - Pagination support
 - Input validation
 - RESTful routing using apiResource
+- API Resources for structured JSON responses
 
 ## Technologies Used
 - PHP
